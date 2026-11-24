@@ -22,6 +22,14 @@ Please refer to the Zenodo record for further details about the dataset.
 
 ## 3. Model Training
 
+The 'separableCNN' script is used to retrain the sequential baseline CNN model using depthwise separable convolutional layers to further reduce the model size.
+
+This code is based on the implementation provided in the following work:
+
+Klemen Bregar. (2023). UWB Positioning and Tracking Data Set (Version 2.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.8280736
+
+Additionally, a Gradient Boosting Machine (GBM) model is implemented in 'gbm.py' to compare the performance of the proposed model against a traditional machine learning approach.
+
 Two Python scripts are provided to train the model in 2 different approaches.
 
 ### 3.1. `train_tl`
